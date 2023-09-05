@@ -63,7 +63,7 @@ class SQLHelper {
     await database.delete(
       'Customers',
       where: 'id = ?',
-      whereArgs: [id],
+      whereArgs: ['id'],
     );
   }
 }
